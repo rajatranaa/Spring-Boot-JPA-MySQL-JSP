@@ -13,7 +13,7 @@ public class HomeController {
 
 	 @RequestMapping("/")
 	    String index() {
-	        return "views/index";
+	        return "index";
 	    }
 	
 	
