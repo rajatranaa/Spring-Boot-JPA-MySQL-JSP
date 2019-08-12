@@ -1,11 +1,20 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 
-<html lang="en">
 
+
+<html lang="en">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+window.onload = function(){
+	getDepartmentList();
+};
+
+
+</script>
 <head>
     <title>RjR </title>
     <!-- Meta tags -->
@@ -37,7 +46,9 @@
                 <img src="resources/images/b11.png" class="img-fluid" alt="">
             </div>
             <div class="txt-left-side">
+             <div class="success_pop" id="msgDiv" style="display: none;"></div>
                 <h2> Sign Up Here </h2>
+                
                 <form action="saveEmployee" method="post">
                     <div class="form-left-to-w3l">
                         <span class="fa fa-user-o" aria-hidden="true"></span>
@@ -74,8 +85,12 @@
                     </div> -->
                     <div class="btnn">
                         <button type="submit">Sign Up </button>
+                        
                     </div>
                 </form>
+                <input type="button" class="btn btn-primary" id="upload_button"
+										name="upload_button" onclick="getDepartmentList();"
+										value="Import">
                 <div class="w3layouts_more-buttn">
                     <h3>Already Have an account..?
                         <a href="/goToLoginPage">Login Here
@@ -93,5 +108,23 @@
         </p>
     </footer>
 </body>
-
+<script type="text/javascript">
+function getDepartmentList(){
+	
+	$.ajax({
+    	type: "GET",
+        contentType: "application/json",
+        url: "/getAllEmployee", 
+        success: function(json) {
+        	 $("#msgDiv").html("Total number of users - " +json);
+        	 $("#msgDiv").show();
+        }
+    });	
+}
+</script>
 </html>
+
+
+
+
+

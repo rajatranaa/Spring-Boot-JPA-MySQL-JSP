@@ -1,5 +1,7 @@
 package com.example.demo.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -49,6 +51,13 @@ public class EmployeeServiceImpl implements EmployeeService{
 			e.printStackTrace();
 		}
 		return emp;
+	}
+
+	@Override
+	public List<Employee> getAllEmployeeList() throws Exception {
+		// TODO Auto-generated method stub
+		
+		return (List<Employee>) employeeRepository.findAll();
 	}
 	
 		
