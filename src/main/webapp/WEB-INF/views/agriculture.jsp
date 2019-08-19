@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <head>
 	<title>RjR</title>
 	<!-- Meta tag Keywords -->
@@ -18,11 +18,11 @@
 	</script>
 	<!-- //Meta tag Keywords -->
 	<!-- Custom-Files -->
-	<link rel="stylesheet" href="resources/css/bootstrap.css">
+	<link rel="stylesheet" href="resourcess/css/bootstrap.css">
 	<!-- Bootstrap-Core-CSS -->
-	<link rel="stylesheet" href="resources/css/style2.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="resourcess/css/style2.css" type="text/css" media="all" />
 	<!-- Style-CSS -->
-	<link rel="stylesheet" href="resources/css/font2-awesome.css">
+	<link rel="stylesheet" href="resourcess/css/font2-awesome.css">
 	<!-- Font-Awesome-Icons-CSS -->
 	<!-- //Custom-Files -->
 	<!-- Web-Fonts -->
@@ -44,13 +44,17 @@
                         <input type="checkbox" id="drop">
                         <ul class="menu mt-md-3">
                             <li class="mr-lg-2 active"><a href="/agriculture">Home</a></li>
-                            <li class="mr-lg-2"><a href="#about" class="scroll">About</a></li>
+
+                            <!-- <li class="mr-lg-2"><a href="#about" class="scroll">About</a></li>
 							<li class="mr-lg-2"><a href="#services" class="scroll">Services</a></li>
                             <li class="mr-lg-2"><a href="#features" class="scroll">Features</a></li>
 							<li class="mr-lg-2"><a href="#news" class="scroll">News</a></li>
-                            <li><a href="#contact" class="scroll">Contact Us</a></li>
+                            <li><a href="#contact" class="scroll">Contact Us</a></li> -->
                         </ul>
-                    </nav>
+                       </nav>
+                       <div>
+                       <input type="button" value="View profile" onclick="theFunction();">
+                       </div>
 		</div>
 	</header>
 	<!-- //header -->
@@ -58,7 +62,7 @@
 
 	<!-- //header -->
 	<!-- banner -->
-	<div class="main-w3pvt">
+	<!-- <div class="main-w3pvt">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="style-banner">
@@ -68,20 +72,20 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- //banner -->
 </div>
 	 <!-- what we do -->
-	 <section class="wedo py-5" id="about">
+	<!--  <section class="wedo py-5" id="about">
 		<div class="container py-lg-5">
 			<div class="text-center">
 				<h2 class="w3_head">Integer porttitor mollisar lorem, at molestie arcu </h2>
 				<p class="main_p mt-4 mb-4 pt-2 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. Proin ac fermentum est. Cras mi ipsum, consectetur ac ipsum Proin ac fermentum est. Cras mi ipsum, </p>
 			</div>
 	 </div>
-	</section>
+	</section> -->
 	 <!-- //what we do -->
-<section class="what_you py-5" id="services">
+<!-- <section class="what_you py-5" id="services">
 	<div class="container py-lg-5">
 		<div class="row about-info-grids text-center">
 				<div class="col-md-4 about-info about-info1">
@@ -107,18 +111,18 @@
 				</div>
 		</div>
 	</div>		
-</section>
+</section> -->
 	 <!-- what we do -->
-	 <section class="wedo py-5">
+	<!--  <section class="wedo py-5">
 		<div class="container py-lg-5">
 			<div class="text-center">
 				<h3 class="w3_head">Integer porttitor mollisar lorem, at molestie arcu </h3>
 				<p class="main_p mt-4 mb-4 pt-2 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. Proin ac fermentum est. Cras mi ipsum, consectetur ac ipsum Proin ac fermentum est. Cras mi ipsum, </p>
 			</div>
 	 </div>
-	</section>
+	</section> -->
 	 <!-- //what we do -->
-	 <section class="augue py-5" id="features">
+	<!--  <section class="augue py-5" id="features">
 	<div class="container py-lg-5">
 		<div class="row about-info-augue">
 				<div class="col-md-4 about-aug about-aug1">
@@ -129,42 +133,42 @@
 				</div>
 				<div class="col-md-4 about-aug about-aug2">
 					<div class="augue_im1">
-						<img src="resources/images/g1.jpg" alt="news image" class="img-fluid">
+						<img src="resourcess/images/g1.jpg" alt="news image" class="img-fluid">
 					</div>
 					<div class="augue_im2 mt-4 mb-4">
-						<img src="resources/images/g2.jpg" alt="news image" class="img-fluid">
+						<img src="resourcess/images/g2.jpg" alt="news image" class="img-fluid">
 					</div>
 					<div class="augue_im3">
-						<img src="resources/images/g3.jpg" alt="news image" class="img-fluid">
+						<img src="resourcess/images/g3.jpg" alt="news image" class="img-fluid">
 					</div>
 				</div>
 				<div class="col-md-4 about-aug about-aug3">
 					<div class="augue_im4">
-						<img src="resources/images/g4.jpg" alt="news image" class="img-fluid">
+						<img src="resourcess/images/g4.jpg" alt="news image" class="img-fluid">
 					</div>
 					<div class="augue_im5 mt-4 mb-4">
-						<img src="resources/images/g5.jpg" alt="news image" class="img-fluid">
+						<img src="resourcess/images/g5.jpg" alt="news image" class="img-fluid">
 					</div>
 					<div class="augue_im6">
-						<img src="resources/images/g6.jpg" alt="news image" class="img-fluid">
+						<img src="resourcess/images/g6.jpg" alt="news image" class="img-fluid">
 					</div>
 				</div>	
 		</div>
 	</div>		
-</section>
+</section> -->
 	  <!-- what we do -->
 	 <section class="wedo py-5">
 		<div class="container py-lg-5">
-			<div class="text-center">
+			<!-- <div class="text-center">
 				<h3 class="w3_head">Integer porttitor mollisar lorem, at molestie arcu </h3>
 				<p class="main_p mt-4 mb-4 pt-2 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. Proin ac fermentum est. Cras mi ipsum, consectetur ac ipsum Proin ac fermentum est. Cras mi ipsum, </p>
-			</div>
+			</div> -->
 		</div>
 	</section>
 	 <!-- //what we do -->
-	  <section class="diam  py-5" id="news">
+	<!--   <section class="diam  py-5" id="news">
 	<div class="container py-lg-5">
-		<img src="resources/images/1.jpg" alt="news image" class="img-fluid">
+		<img src="resourcess/images/1.jpg" alt="news image" class="img-fluid">
 		<div class="row about-info-diam mt-5">
 				<div class="col-md-4 about-diam about-diam1">
 					<h4>Integer porttitor mollisar lorem</h4>
@@ -182,14 +186,21 @@
 				</div>
 		</div>
 	</div>		
-</section>
+</section> -->
 	<!-- contact -->
+	<section>
+	<div>
+	<h5 id="uploadXlsHistoryDivTitle" style="display: none;">Failed Records</h5>
+		<div id="errorDataDIV"></div>
+    </div>
+    </section>
+        
 	 <section class="wedo py-5" id="contact">
 		<div class="container py-lg-5">
-			<div class="text-center">
+			<!-- <div class="text-center">
 				<h3 class="w3_head">Integer porttitor mollisar lorem, at molestie arcu </h3>
 				<p class="main_p mt-4 mb-4 pt-2 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. Proin ac fermentum est. Cras mi ipsum, consectetur ac ipsum Proin ac fermentum est. Cras mi ipsum, </p>
-			</div>
+			</div> -->
 			<div class="contact_grid_right mt-5 mx-auto text-center">
 				<form action="#" method="post">
 					<div class="row contact_top">
@@ -223,4 +234,55 @@
     </div>
 	 <!-- //footer -->
 </body>
+<script type="text/javascript">
+    function theFunction() {
+    	
+    	var email = '${employee.email}';
+    	
+    	$.ajax({
+        	type: "GET",
+            contentType: "application/json",
+            url: "/getProfile?&email="+email, 
+           
+            success: function(json) {
+            //	alert("DATA==== "+json.name);
+            	showFailedExcelData(json);
+            //	alert("after failed");
+            }
+        });	
+    }
+</script>
+<script>
+function showFailedExcelData(json){
+//	alert("inside failed");
+	  var result = "";
+ 	 result += '<table id="errorDataList" class="display" cellspacing="0" width="60%" >';
+      result += '<thead>';
+      result += '  <tr>';
+      result += '    <th>Employe Id</th>';
+      result += '    <th>Employe Name*</th>';
+      result += '    <th>M.Number</th>';
+      result += '    <th>Emailr</th>';
+      result += '    <th>Password</th>'; 
+      result += '  </tr>';
+      result += '</thead>';
+      result += '<tbody>';
+      var data = json;
+ 	//  for(i=0;i < data.length;i++){
+ 		 var report = data;
+ 		 result += '<tr>';
+	         result += '<td><div class="tblminwidth-50">'+report.id+'</div></td>';
+	         result += '<td><div class="tblminwidth-100">'+report.name+'</div></td>';
+	         result += '<td><div class="tblminwidth-100">'+report.phoneNo+'</div></td>';
+	         result += '<td><div class="tblminwidth-100">'+report.email+'</div></td>';
+	         result += '<td><div class="tblminwidth-100">'+report.pass+'</div></td>';
+	         result += '  </tr>';
+ 	// }
+ 	
+      result += '  </tbody>';
+		 result += '</table> ';
+		 $("#errorDataDIV").empty();
+		 $("#errorDataDIV").append(result);
+}	
+</script>
 </html>

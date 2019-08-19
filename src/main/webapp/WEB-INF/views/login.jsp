@@ -25,10 +25,10 @@ $(document).ready(function() {
     </script>
     <!-- Meta tags -->
     <!-- font-awesome icons -->
-    <link href="resources/css/font-awesome.min.css" rel="stylesheet">
+    <link href="resourcess/css/font-awesome.min.css" rel="stylesheet">
     <!-- //font-awesome icons -->
     <!--stylesheets-->
-    <link href="resources/css/style.css" rel='stylesheet' type='text/css' media="all">
+    <link href="resourcess/css/style.css" rel='stylesheet' type='text/css' media="all">
     <!--//style sheet end here-->
     <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
@@ -70,6 +70,9 @@ $(document).ready(function() {
                         <button type="submit">Login </button>
                     </div>
                 </form>
+                    <div class="btnn">
+                        <input type = "button" id="profile" name="profile" value="View Profile" onclick="getProfile();">
+                    </div>
                 <div class="w3layouts_more-buttn">
                     <h3>Don't Have an account..?
                         <a href="/">Register Here
@@ -81,7 +84,7 @@ $(document).ready(function() {
             <div class="img-right-side">
                 <h3>Welcome To Login Form</h3>
                 <p></p>
-                <img src="resources/images/b12.png" class="img-fluid" alt="">
+                <img src="resourcess/images/b12.png" class="img-fluid" alt="">
             </div>
         </div>
     </div>
@@ -91,4 +94,12 @@ $(document).ready(function() {
         </p>
     </footer>
 </body>
+
+<script>
+function getProfile(){
+	
+	
+}
+
+</script>
 </html>
