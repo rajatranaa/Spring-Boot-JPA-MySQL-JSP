@@ -36,12 +36,12 @@
 	<header>
 		<div class="container-fluid px-lg-4">
 			<nav class="py-4">
-                        <div class="logo" id="logo">
+                      <!--   <div class="logo" id="logo">
                             <a href="/index.jsp">Combine</a>
                             
-                        </div>
-                        <label for="drop" class="toggle">Menu</label>
-                        <input type="checkbox" id="drop">
+                        </div> -->
+                     <!--    <label for="drop" class="toggle">Menu</label>
+                        <input type="checkbox" id="drop"> -->
                         <ul class="menu mt-md-3">
                             <li class="mr-lg-2 active"><a href="/agriculture">Home</a></li>
 
@@ -189,7 +189,7 @@
 </section> -->
 	<!-- contact -->
 	<section>
-	<div>
+	<div >
 	<h5 id="uploadXlsHistoryDivTitle" style="display: none;">Failed Records</h5>
 		<div id="errorDataDIV"></div>
     </div>
@@ -221,7 +221,7 @@
 	</section>
 	 <!-- //contact -->
 	  <!-- footer -->
-	<div class="cpy-right text-center py-5">
+<!-- 	<div class="cpy-right text-center py-5">
 		<ul class="social_section_1info pt-lg-4 mb-lg-4">
 			<li><a href="#"><span class="fa fa-facebook"></span></a></li>
 			<li><a href="#"><span class="fa fa-twitter"></span></a></li>
@@ -231,7 +231,7 @@
         <p>© 2018 Combine. All rights reserved | Design by
             <a href="http://w3layouts.com"> W3layouts.</a>
         </p>
-    </div>
+    </div> -->
 	 <!-- //footer -->
 </body>
 <script type="text/javascript">
@@ -256,13 +256,13 @@
 function showFailedExcelData(json){
 //	alert("inside failed");
 	  var result = "";
- 	 result += '<table id="errorDataList" class="display" cellspacing="0" width="60%" >';
+ 	  result += '<table id="errorDataList" class="display" cellspacing="0" width="50%" >';
       result += '<thead>';
       result += '  <tr>';
       result += '    <th>Employe Id</th>';
-      result += '    <th>Employe Name*</th>';
+      result += '    <th>Employe Name</th>';
       result += '    <th>M.Number</th>';
-      result += '    <th>Emailr</th>';
+      result += '    <th>Email</th>';
       result += '    <th>Password</th>'; 
       result += '  </tr>';
       result += '</thead>';
